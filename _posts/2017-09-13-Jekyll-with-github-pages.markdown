@@ -218,7 +218,7 @@ Jekyll docs explain:
 Ok, keeping above in mind, lets do the following:
 Create `_includes` folder in  `username.github.io` directory. Then create a file `disqus_comments.html` inside, with the contents:
 
-![if page comments](E:\Git\silversurfer0.github.io\images\pages_github_if_page_comments.png)
+![if page comments](/images/pages_github_if_page_comments.png)
 
 Any code in between these two lines will be included if Front Matter for that page has `comments: true`.
 Go to [Disqus to get Universal Code](https://silverthread.disqus.com/admin/install/) for Jekyll and insert it between `if` lines.
@@ -254,7 +254,7 @@ Please note, that `s.src` is given for my website! Disqus should provide you wit
 Next, copy `post.html` template from gem-based `_layouts` to local `_layouts` folder.
 In this layout template we'll put one-line code that would include disqus comments to any post we want. So, just above the closing `</article>` tag add the following:
 
-![include disqus comments](E:\Git\silversurfer0.github.io\images\include_disqus_comments.png)
+![include disqus comments](/images/include_disqus_comments.png)
 
 Cool!
 
@@ -270,7 +270,7 @@ Add the following to `_layouts/default.html` before the closing `body` tag. Chan
 
 Add `#disqus_thread` to the end of a URL and Disqus will count the comments on the page the link points to. For example, my `_layouts/post.html` contains the following code. Note the comment count at the top of this post.
 
-![pages_comment_count](E:\Git\silversurfer0.github.io\images\pages_github_comment_count.png)
+![pages_comment_count](/images/pages_github_comment_count.png)
 
 `index.html` contains the following code to display the comment count for each post in the home page:
 
@@ -307,7 +307,7 @@ Next, we'll enable it on all pages. Doing this is easy: include the google-analy
 Copy `default.html` template from gem-based `_layouts` to your local `_layouts` folder.
 Put this line:
 
-![include analytics](E:\Git\silversurfer0.github.io\images\pages_github_analystics.png)
+![include analytics](/images/pages_github_analystics.png)
 
  in between the opening `<html>` and `<body>` tags of the default.html file.
 **Congratulations! We are done!**
